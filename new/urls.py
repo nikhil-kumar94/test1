@@ -21,6 +21,6 @@ def h(request):
     return httpResponse('Home')
 
 urlpatterns = [
-    path('',h)
+    path('',h),
     path('admin/', admin.site.urls),
 ]
