@@ -18,7 +18,7 @@ from django.urls import path
 from django.http import HttpResponse
 
 def h(request):
-    return httpResponse('Home')
+    return HttpResponse('Home')
 
 urlpatterns = [
     path('',h),
